@@ -3,8 +3,6 @@ Strings
 
 TODO: Add Python-specific description. 
 
-TODO: Make a more Pythonic example showing string manipulation 
-      in Python (e.g. string multiplication)?
 '''
 
 letter = ' ' # Strings can be written in single quotes
@@ -28,6 +26,9 @@ def draw():
     background(0)# Set background to black
     # Draw the letter to the center of the screen
     textSize(14)
+    #String Multiplication: Strings can be multiplied by an integer.
+    text("String multiplication\n",50,10)
+    text("Hi! "*5,50,30)
     # Concatenate (combine) strings by juxtaposition:  
     text("Click on the program, "
     "then type to add to the String", 50, 50)
